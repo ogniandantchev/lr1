@@ -1,6 +1,7 @@
 import numpy as np
 
 
+
 def two_group_ent(first, tot):                        
     return -(first/tot*np.log2(first/tot) +           
              (tot-first)/tot*np.log2((tot-first)/tot))
